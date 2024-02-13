@@ -1,0 +1,145 @@
+/* Reset default styles */
+body, h1, h2, p, img, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'General Sans', sans-serif;
+}
+
+/* Styles for hero section */
+.hero {
+    background-color: #F0F0F0; /* Grey */
+    color: #333; /* Black */
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Styles for about founder section */
+.about-founder {
+    background-color: #F7FF4E; /* Royal Yellow */
+    text-align: center;
+    padding: 100px 0;
+}
+
+.about-founder img {
+    width: 300px;
+    border-radius: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Styles for why choose us section */
+.why-choose {
+    background-color: #9DC183; /* Sage Green */
+    text-align: center;
+    padding: 100px 0;
+}
+
+.why-choose-content {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.icon img {
+    margin: 10px;
+    width: 320px; /* Adjust size as needed */
+}
+
+/* Styles for countdown timer section */
+.countdown-timer {
+    background-color: #F0F0F0; /* Grey */
+    text-align: center;
+    padding: 100px 0;
+}
+
+.timer-component{
+    margin: 15px;
+}
+
+#timer {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+/* Styles for call to action section */
+.call-to-action {
+    background-color: #F7FF4E; /* Royal Yellow */
+    text-align: center;
+    padding: 100px 0;
+}
+
+.call-to-action button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 20px;
+    border: none;
+    background-color: #333; /* Black */
+    color: #FFF; /* White */
+    cursor: pointer;
+}
+
+/* Styles for slide-up form section */
+.slide-up-form {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease;
+}
+
+.form-content {
+    position: relative;
+    padding: 10px;
+    justify-content: center;
+    background-color: #FFF; /* White */
+}
+
+.form-content h2{
+    margin: 5px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 1.1rem;
+    color: #FFFF;
+    padding: 5px;
+    background-color: #333; /* Black */
+    color: #FFFF; /* White */
+} 
+
+
+.slide-up-form form {
+    display: absolute;
+    justify-content: center;
+}
+
+.slide-up-form input {
+    padding: 10px;
+    margin: 6px;
+    width: 90%;
+}
+
+#submit{
+    padding: 10px;
+    margin: 6px;
+    width: 30%;
+    background-color: #333; /* Black */
+    color: #FFFF; /* White */
+    border: none;
+    cursor: pointer;
+
+}
